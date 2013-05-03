@@ -1,8 +1,8 @@
-Building MinCoin
+Building PiCoin
 
-See doc/readme-qt.rst for instructions on building Mincoin-QT,
+See doc/readme-qt.rst for instructions on building Picoin-QT,
 the intended-for-end-users, nice-graphical-interface, reference
-implementation of MinCoin.
+implementation of PiCoin.
 
 See doc/build-*.txt for instructions on building mincoind,
 the intended-for-services, no-graphical-interface, reference

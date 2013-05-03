@@ -1,21 +1,22 @@
-MinCoin (MNC) - a minimalist version of Bitcoin optimized for CPU mining using scrypt as a proof of work scheme. MinCoin is bronze to Bitcoin gold
- - Only 10 million coins total will be generated
- - 1 minute block targets for ultra fast transactions
- - To encourage early adoption block values for first 3 days are :- 500 MNC, 100 MNC, 50 MNC
- - After first 3 days block value will be 2 MNC per block until all coins mined which will take roughly 10 years
- 
- 
-The rest is the same as bitcoin.
+PICoin (PIC) - a minimalist version of Bitcoin optimized for CPU mining using scrypt as a proof of work scheme. 
+ - Only 3.14 million coins total will be generated
+ - 3 minute 14 second block targets
+ - To encourage early adoption block values for first 1 day is :- 314 PIC
+ - To encourage early adoption block values for day 2 to 7 is : 31.4 PIC
+ - After first 7 days block value will be 3.14 PIC per block until all coins mined which will take roughly 10 years
+ - Maximum coins = 3.14 Million
+ - Min Transaction Fee = 0.01 PIC 
+ - The rest is the same as bitcoin.
+
  - 720 blocks to retarget difficulty (half a day)
 
 Pools
 ===================
-http://www.vircurpool.com
-http://mncpool.binarycoins.eu
+http://www.picoinpool.com
 
 Block Explorers
 ===================
-http://blockexplorer.vircurpool.com/
+http://blockexplorer.picoin.org/
 
 Development process
 ===================

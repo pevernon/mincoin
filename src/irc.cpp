@@ -297,14 +297,14 @@ void ThreadIRCSeed2(void* parg)
         }
         
         if (fTestNet) {
-            Send(hSocket, "JOIN #mincoinTEST3\r");
-            Send(hSocket, "WHO #mincoinTEST3\r");
+            Send(hSocket, "JOIN #picoinTEST3\r");
+            Send(hSocket, "WHO #picoinTEST3\r");
         } else {
-            // randomly join #mincoin00-#mincoin99
+            // randomly join #picoin00-#picoin99
             int channel_number = GetRandInt(100);
-            channel_number = 0; // MinCoin: for now, just use one channel
-            Send(hSocket, strprintf("JOIN #mincoin%02d\r", channel_number).c_str());
-            Send(hSocket, strprintf("WHO #mincoin%02d\r", channel_number).c_str());
+            channel_number = 0; // PiCoin: for now, just use one channel
+            Send(hSocket, strprintf("JOIN #picoin%02d\r", channel_number).c_str());
+            Send(hSocket, strprintf("WHO #picoin%02d\r", channel_number).c_str());
         }
 
         int64 nStart = GetTime();

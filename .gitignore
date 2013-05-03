@@ -1,7 +1,7 @@
 src/*.exe
-src/mincoin
-src/mincoind
-src/test_mincoin
+src/picoin
+src/picoind
+src/test_picoin
 src/build.h
 msvc10/*
 msvc10
@@ -16,7 +16,7 @@ msvc10
 #compilation and Qt preprocessor part
 *.qm
 Makefile
-mincoin-qt
+picoin-qt
 #resources cpp
 qrc_*.cpp
 #qt creator
