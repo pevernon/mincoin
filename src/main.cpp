@@ -828,16 +828,15 @@ uint256 static GetOrphanRoot(const CBlock* pblock)
 
 int64 static GetBlockValue(int nHeight, int64 nFees)
 {
-	if(nHeight<2880) return 314*COIN;			//314 coins per block in first two days
-	else if(nHeight<10080) return 31.4*COIN;		//31.4 coins per block in coins day 3 - 7
+	if(nHeight<446) return 314*COIN;			//314 coins per block in first two days
 
-	int64 nSubsidy = 3.14 * COIN;				//3.14 coins per block thereafter
+	int64 nSubsidy = 31.4 * COIN;				//3.14 coins per block thereafter
 
-	//10 million total coins
-	if(nHeight>4532000) nSubsidy=0;
+	//31.4 million total coins
+	if(nHeight>995995) nSubsidy=0; // A little over 6 years
 	
 	// Subsidy is cut in half every 840000 blocks, which will occur approximately every 4 years
-    //nSubsidy >>= (nHeight / 840000); // mincoin: 840k blocks in ~4 years
+    	//nSubsidy >>= (nHeight / 840000); // 840k blocks in ~4 years
 
     return nSubsidy + nFees;
 }

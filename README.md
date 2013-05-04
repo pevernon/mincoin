@@ -1,14 +1,12 @@
 PICoin (PIC) - a minimalist version of Bitcoin optimized for CPU mining using scrypt as a proof of work scheme. 
- - Only 3.14 million coins total will be generated
+ - 31.4 million coins total will be generated
  - 3 minute 14 second block targets
- - To encourage early adoption block values for first 1 day is :- 314 PIC
- - To encourage early adoption block values for day 2 to 7 is : 31.4 PIC
- - After first 7 days block value will be 3.14 PIC per block until all coins mined which will take roughly 10 years
+ - To encourage early adoption block values for first 2 days is : 314 PIC
+ - After first 2 days block value will be 31.4 PIC per block until all coins mined which will take roughly 10 years
  - Maximum coins = 3.14 Million
- - Min Transaction Fee = 0.01 PIC 
  - The rest is the same as bitcoin.
 
- - 720 blocks to retarget difficulty (half a day)
+ - 3.14 days to retarget difficulty
 
 Pools
 ===================
